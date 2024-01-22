@@ -1,0 +1,29 @@
+Quantum Concolic with dreal
+Exploring.......................
+[('x', 0), ('qc', <concolic.symbolic_types.symbolic_circuit.NewQuantumCircuit object at 0x00000235B1661000>)]
+qc-state: [1. 0.]
+---------------------------(Time: 0.11289238929748535 )-------------
+-------------------------------(New Result: 0 )-------------------------------
+[('x', -16), ('qc', <concolic.symbolic_types.symbolic_circuit.NewQuantumCircuit object at 0x00000235B179EF80>)]
+qc-state: [1. 0.]
+---------------------------(Time: 0.18657135963439941 )-------------
+-------------------------------(New Result: 2 )-------------------------------
+[('x', 0), ('qc', <concolic.symbolic_types.symbolic_circuit.NewQuantumCircuit object at 0x00000235B17CF2B0>)]
+qc-state: [-0.02781515-0.60938563j  0.77870536+0.14660642j]
+[('x', -16), ('qc', <concolic.symbolic_types.symbolic_circuit.NewQuantumCircuit object at 0x00000235B179F5B0>)]
+qc-state: [-0.64837565-0.03636672j  0.57774777-0.49446334j]
+[('x', 0), ('qc', <concolic.symbolic_types.symbolic_circuit.NewQuantumCircuit object at 0x0000023649A06AD0>)]
+qc-state: [-0.51427734-0.28005106j  0.72297577+0.36660095j]
+[('x', 0), ('qc', <concolic.symbolic_types.symbolic_circuit.NewQuantumCircuit object at 0x00000235B179E5F0>)]
+qc-state: [0.65471936-0.32965102j 0.27570644-0.62181889j]
+[('x', 0), ('qc', <concolic.symbolic_types.symbolic_circuit.NewQuantumCircuit object at 0x00000235B179EBC0>)]
+qc-state: [0.35587534-0.58390175j 0.61805046-0.38784676j]
+[('x', 0), ('qc', <concolic.symbolic_types.symbolic_circuit.NewQuantumCircuit object at 0x00000236499D7220>)]
+qc-state: [-0.28656586-0.24777962j  0.28023489+0.88201682j]
+[('x', 0), ('qc', <concolic.symbolic_types.symbolic_circuit.NewQuantumCircuit object at 0x00000235B17CDE40>)]
+qc-state: [-0.70540145-0.39883892j  0.58582134-0.01223363j]
+[('x', 0), ('qc', <concolic.symbolic_types.symbolic_circuit.NewQuantumCircuit object at 0x00000236499B8DC0>)]
+qc-state: [-0.24668171+0.87333324j  0.28150431+0.31175712j]
+-------------------> Target program test failed <---------------------
+Expected: dict_keys([-1, 0, 1, 2]), found: dict_keys([0, 2])
+Finish Time: 7.786809206008911
