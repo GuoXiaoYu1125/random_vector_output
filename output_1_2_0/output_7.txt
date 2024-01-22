@@ -1,0 +1,20 @@
+Quantum Concolic with dreal
+Exploring.......................
+[('x', 0), ('qc', <concolic.symbolic_types.symbolic_circuit.NewQuantumCircuit object at 0x0000021057EB1030>)]
+qc-state: [1. 0.]
+---------------------------(Time: 0.1155235767364502 )-------------
+-------------------------------(New Result: 0 )-------------------------------
+[('x', 2), ('qc', <concolic.symbolic_types.symbolic_circuit.NewQuantumCircuit object at 0x0000021057EB3A30>)]
+qc-state: [1. 0.]
+---------------------------(Time: 0.18992853164672852 )-------------
+-------------------------------(New Result: 2 )-------------------------------
+[('x', 0), ('qc', <concolic.symbolic_types.symbolic_circuit.NewQuantumCircuit object at 0x000002105801BE80>)]
+qc-state: [-0.12780333-0.32462318j -0.90934772-0.22665575j]
+---------------------------(Time: 0.25927162170410156 )-------------
+-------------------------------(New Result: -1 )-------------------------------
+[('x', 2), ('qc', <concolic.symbolic_types.symbolic_circuit.NewQuantumCircuit object at 0x000002105801A5C0>)]
+qc-state: [0.47958745-0.40744433j 0.58222216+0.51478379j]
+---------------------------(Time: 0.33313441276550293 )-------------
+-------------------------------(New Result: 1 )-------------------------------
+Target program test passed <---
+Finish Time: 0.33313441276550293

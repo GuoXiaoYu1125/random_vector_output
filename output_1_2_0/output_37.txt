@@ -1,0 +1,29 @@
+Quantum Concolic with dreal
+Exploring.......................
+[('x', 0), ('y', 0), ('qc', <concolic.symbolic_types.symbolic_circuit.NewQuantumCircuit object at 0x000001DDCB641090>)]
+qc-state: [1. 0.]
+-------------------------------(New Result: 6 )-------------------------------
+[('x', 8), ('y', 0), ('qc', <concolic.symbolic_types.symbolic_circuit.NewQuantumCircuit object at 0x000001DDCB643EE0>)]
+qc-state: [1. 0.]
+-------------------------------(New Result: 7 )-------------------------------
+[('x', 0), ('y', -6), ('qc', <concolic.symbolic_types.symbolic_circuit.NewQuantumCircuit object at 0x000001DDCB7AA650>)]
+qc-state: [1. 0.]
+-------------------------------(New Result: 0 )-------------------------------
+[('x', 0), ('y', 0), ('qc', <concolic.symbolic_types.symbolic_circuit.NewQuantumCircuit object at 0x000001DE4B8D8040>)]
+qc-state: [-0.15896048-0.10324512j  0.69144736-0.69711732j]
+[('x', 8), ('y', -6), ('qc', <concolic.symbolic_types.symbolic_circuit.NewQuantumCircuit object at 0x000001DDCB743F40>)]
+qc-state: [1. 0.]
+-------------------------------(New Result: 1 )-------------------------------
+[('x', 8), ('y', 0), ('qc', <concolic.symbolic_types.symbolic_circuit.NewQuantumCircuit object at 0x000001DE4B9AD240>)]
+qc-state: [ 0.59210918-0.44031509j -0.53675655-0.40917203j]
+-------------------------------(New Result: 3 )-------------------------------
+[('x', 0), ('y', -6), ('qc', <concolic.symbolic_types.symbolic_circuit.NewQuantumCircuit object at 0x000001DE4BAAAB30>)]
+qc-state: [ 0.55372807-0.64858816j -0.06984172+0.51753334j]
+[('x', 0), ('y', 0), ('qc', <concolic.symbolic_types.symbolic_circuit.NewQuantumCircuit object at 0x000001DE4CBF1AE0>)]
+qc-state: [0.53746916-0.40747805j 0.0450757 -0.73692383j]
+[('x', 0), ('y', 0), ('qc', <concolic.symbolic_types.symbolic_circuit.NewQuantumCircuit object at 0x000001DE4BA1F760>)]
+qc-state: [0.50315498+0.5813505j  0.07980418+0.63442726j]
+[('x', 0), ('y', 0), ('qc', <concolic.symbolic_types.symbolic_circuit.NewQuantumCircuit object at 0x000001DDCB643E80>)]
+qc-state: [-0.44015301-0.57824355j  0.47729277-0.49405601j]
+-------------------> Target program test failed <---------------------
+Expected: dict_keys([0, 1, 2, 3, 4, 5, 6, 7]), found: dict_keys([6, 7, 0, 1, 3])

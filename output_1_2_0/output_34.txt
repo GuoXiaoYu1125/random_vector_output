@@ -1,0 +1,31 @@
+Quantum Concolic with dreal
+Exploring.......................
+[('x', 0), ('y', 0), ('qc', <concolic.symbolic_types.symbolic_circuit.NewQuantumCircuit object at 0x00000239B22E0FA0>)]
+qc-state: [1. 0.]
+-------------------------------(New Result: 6 )-------------------------------
+[('x', 12), ('y', 0), ('qc', <concolic.symbolic_types.symbolic_circuit.NewQuantumCircuit object at 0x00000239B22E3DF0>)]
+qc-state: [1. 0.]
+-------------------------------(New Result: 7 )-------------------------------
+[('x', 0), ('y', 6), ('qc', <concolic.symbolic_types.symbolic_circuit.NewQuantumCircuit object at 0x00000239B244AB90>)]
+qc-state: [1. 0.]
+-------------------------------(New Result: 4 )-------------------------------
+[('x', 0), ('y', 0), ('qc', <concolic.symbolic_types.symbolic_circuit.NewQuantumCircuit object at 0x0000023A4A577B50>)]
+qc-state: [-0.29978974-0.26938555j -0.5977811 +0.69297568j]
+-------------------------------(New Result: 2 )-------------------------------
+[('x', 12), ('y', 6), ('qc', <concolic.symbolic_types.symbolic_circuit.NewQuantumCircuit object at 0x00000239B2448A30>)]
+qc-state: [1. 0.]
+-------------------------------(New Result: 5 )-------------------------------
+[('x', 12), ('y', 0), ('qc', <concolic.symbolic_types.symbolic_circuit.NewQuantumCircuit object at 0x0000023A4A603040>)]
+qc-state: [-0.53811639+0.81255379j -0.1249181 +0.18596384j]
+[('x', 0), ('y', 6), ('qc', <concolic.symbolic_types.symbolic_circuit.NewQuantumCircuit object at 0x0000023A4A69AE30>)]
+qc-state: [0.33017867+0.69656172j 0.24961073-0.58607022j]
+[('x', 12), ('y', 6), ('qc', <concolic.symbolic_types.symbolic_circuit.NewQuantumCircuit object at 0x0000023A4B87A950>)]
+qc-state: [-0.610255  +0.21934076j -0.46004159+0.60649831j]
+-------------------------------(New Result: 1 )-------------------------------
+[('x', 12), ('y', 0), ('qc', <concolic.symbolic_types.symbolic_circuit.NewQuantumCircuit object at 0x0000023A4A7986A0>)]
+qc-state: [-0.07865894+0.61554626j -0.44727658-0.64409567j]
+-------------------------------(New Result: 3 )-------------------------------
+[('x', 12), ('y', 0), ('qc', <concolic.symbolic_types.symbolic_circuit.NewQuantumCircuit object at 0x0000023A4A7A2950>)]
+qc-state: [-0.39026891+0.51703085j  0.31228107-0.69487396j]
+-------------------> Target program test failed <---------------------
+Expected: dict_keys([0, 1, 2, 3, 4, 5, 6, 7]), found: dict_keys([6, 7, 4, 2, 5, 1, 3])

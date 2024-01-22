@@ -1,0 +1,16 @@
+Quantum Concolic with dreal
+Exploring.......................
+[('x', 0), ('qc', <concolic.symbolic_types.symbolic_circuit.NewQuantumCircuit object at 0x0000017BEE66D2A0>)]
+qc-state: [1. 0.]
+-------------------------------(New Result: 4 )-------------------------------
+[('x', -32), ('qc', <concolic.symbolic_types.symbolic_circuit.NewQuantumCircuit object at 0x0000017BEE66FD60>)]
+qc-state: [1. 0.]
+-------------------------------(New Result: 2 )-------------------------------
+[('x', 0), ('qc', <concolic.symbolic_types.symbolic_circuit.NewQuantumCircuit object at 0x0000017C4E906770>)]
+qc-state: [-0.44764019-0.4834661j  -0.39818602+0.63822149j]
+-------------------------------(New Result: 1 )-------------------------------
+[('x', -32), ('qc', <concolic.symbolic_types.symbolic_circuit.NewQuantumCircuit object at 0x0000017C4E906B30>)]
+qc-state: [-0.31826157-0.3854017j   0.58010234-0.64316124j]
+-------------------------------(New Result: 5 )-------------------------------
+-------------------> Target program test failed <---------------------
+Expected: dict_keys([1, 2, 3, 4, 5, 6]), found: dict_keys([4, 2, 1, 5])
